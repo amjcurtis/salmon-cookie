@@ -1,0 +1,121 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ------------------------------------ */
+/* HEADER */
+
+header{
+    background-color: blue;
+    max-width: 960px;
+}
+nav {
+    background-color: bisque;
+    max-width: 960px;
+    margin: 0px auto;
+}
+nav img {
+    border: 2px solid red; 
+    float: left;
+    /* margin-top: 10px; */
+    margin-right: 30px;
+}
+h1 {
+    border: 2px solid red; 
+    /* border-bottom: none; */
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+nav li {
+    display: inline-block;
+    margin: 10px auto;
+    margin-top: 0px;
+    margin-right: 30px;
+    list-style: none;
+    font-family: 'Yellowtail', cursive; 
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: 2px solid red;
+    border-radius: 10%;
+    padding: 10px;
+}
+nav li:nth-of-type(1) {
+    margin-left: 40px;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+/* ----------------------------------- */
+/* MAIN */
+
+main {
+    width: 960px; 
+    height: 650px;
+    background-color: lightblue;
+}
+main ul li {
+    display: inline-block; /* Or float left and address margins afterward; this is older way of allowing you to squeeze the li's from side-by-side to stacked top-to-bottom based on window width*/
+    margin: 30px 30px 30px 0px;
+    list-style: none;
+}
+main li:last-child { /* ':last-child' is a pseudo-class */
+    margin-right: 0px; /* 0px here corresponds to the 0px left margin in main li ul selector above */
+}
+section img {
+    float: left;
+    margin-right: 30px;
+}
+#left-sidebar {
+    float: left;
+    width: 300px;
+    padding: 20px;
+}
+button {
+    margin-top: 20px;
+}
+#description-div {
+    /* float: right; */
+    padding: 20px;
+    padding-right: 80px;
+    margin-bottom: 40px;
+}
+section h2 {
+    font-size: 20px;
+    font-family: 'Yellowtail', cursive;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+section p {
+    font-style: italic; /* vs. using <em> element in the HTML */
+    line-height: 20px; /* Always specify line height */
+    overflow: auto; /* Or 'scroll' value */
+}
+section div ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+footer {
+    display: block;
+}
+
+/*
+ELEMENTS USED
+body
+header
+nav
+img
+h1
+ul
+li
+a
+main
+section
+h2
+p
+button
+footer
+h3
+*/ 
